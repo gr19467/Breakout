@@ -176,6 +176,7 @@ public class Breakout extends GraphicsProgram {
                 points += 1;
                 pointLabel.setLabel("Points: " + points);
 
+                //add points and remove brick when hit
                 if (((Brick) obj).hitsNeeded == 1) {
 
                     this.remove(obj);
